@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTest"  parallel="tests" thread-count="1">
+    <test name="SmokeTest">
+        <parameter name="driverName" value="chrome"></parameter>
+       <classes>
+            <class name="Tests.LogInTest"/>
+        </classes>
+    </test>
+
+</suite>
